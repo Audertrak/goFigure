@@ -1,0 +1,16 @@
+#ignore compiled executables
+*.exe
+*.out
+
+#ignore Go build artifacts
+*.test
+*.o
+
+#ignore db files
+*.db
+
+#ignore editor/IDE files
+.vscode/
+
+#ignore go modules cache
+vendor/
